@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('FirePlay/', include('FirePlay.urls'))
+    path('FireApp/', include('FireApp.urls'))
 ]
